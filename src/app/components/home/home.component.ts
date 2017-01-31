@@ -10,7 +10,6 @@ import { NetworkInfoData, NetworkInfoService } from '../../services/network-info
 })
 export class HomeComponent implements OnInit {
 
-
     constructor(private _networkInfo: NetworkInfoService) { }
 
     networkInfoData = new NetworkInfoData();
